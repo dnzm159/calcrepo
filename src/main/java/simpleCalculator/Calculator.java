@@ -13,6 +13,13 @@ public class Calculator {
 	public void multi(int x, int y) {
 		result=x*y;
 	}
+	
+	public int decinc(int delt)
+	{
+		result = delt--;
+		return result;
+	}
+	
 	public int getResult() {
 		return result;
 	}
